@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".AddReviewWreckItRalph"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/wreckitaddreviewpic"
+        android:layout_width="99dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addreviewtitle1"
+        app:srcCompat="@drawable/wreckitralph" />
+
+    <TextView
+        android:id="@+id/addreviewtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Write Review"
+        android:textColor="@color/colorWhite"
+        android:textSize="50sp"
+        android:background="@color/colorTaskBar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/wreckitaddtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Wreck-It Ralph 2"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/wreckitaddreviewpic"
+        app:layout_constraintTop_toBottomOf="@+id/addreviewtitle1" />
+
+    <TextView
+        android:id="@+id/addcommentstitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Comments:"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wreckitaddreviewpic" />
+
+    <RelativeLayout
+        android:id="@+id/writereviewbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcommentstitle2">
+
+        <ImageView
+            android:id="@+id/addreviewbox2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="30dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/commentbox" />
+
+        <EditText
+            android:id="@+id/addreviewedit2"
+            android:layout_width="305dp"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:background="#00000000"
+            android:hint="Type review"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/sendreview2"
+        android:layout_width="188dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:onClick="moveToWreckIt"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writereviewbox2"
+        app:srcCompat="@drawable/submitfill" />
+
+    <TextView
+        android:id="@+id/usernameid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="User8593"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/wreckitaddreviewpic"
+        app:layout_constraintTop_toBottomOf="@+id/wreckitaddtitle" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/wreckitaddreviewpic"
+        app:layout_constraintTop_toBottomOf="@+id/usernameid3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/addratingwreck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating: "
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/ratingnum3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ratingnumend3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/5"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/blackpantherpic"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/blackpanther"
+                    android:onClick="moveToMovie1"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:id="@+id/shrekpic"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/shrek"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="35dp">
+
+                <ImageView
+                    android:id="@+id/spidermanpic"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/spiderman"
+                    android:padding="10dp"/>
+
+                <ImageView
+                    android:id="@+id/predatorpic"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/predator"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="35dp">
+
+                <ImageView
+                    android:id="@+id/jumanjipic"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/jumanji"
+                    android:layout_marginBottom="70dp"
+                    android:padding="10dp"/>
+
+                <ImageView
+                    android:id="@+id/alienpic"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/alien"
+                    android:layout_marginBottom="70dp"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

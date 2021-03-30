@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MovieTix</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="commentblackpanther">This movie is finally out and i love the cinematics of this movie!</string>
+
+    <string name="sypnosisblackpanther">
+        As the avengers and their allies have continued to protect the world from threats too large
+        for any one hero to handle, a new danger has emerged from the cosmis shadows: Thanoes. A despot of intergalactic infamy, his goal is
+        to collect all six infinity stones, artifacts of unimaginable power, and use them to inflict his twisted will on all reality.</string>
+
+    <string name="moviecomment1">
+        The movie is super nice and there are stunning visuals which attracts people to watch and keep their eyes peeled throught the whole movie,
+        the price you pay is worth it for the amount of effort that the production house put into and the effects that are displayed is awsome!</string>
+
+    <string name="sypnosiswreckitralph">Ralph and Vanellope embark on an adventure inside the internet to find a spare part to fix a video game.</string>
+
+    <string name="moviecomment2">I cannot wait for this movie to be out, the first movie was really nice.</string>
+
+    <string name="sypnosisantman">Scott Lang is grappling with the consequences of his choices as both a superhero and a father.
+        Approached by Hope van Dyne and Dr. Hank Pym, Lang must once again don the Ant-Man suit and fight alongside the Wasp. The urgent
+        mission soon leads to secret revelations from the past as the dynamic duo finds itself in an epic battle against a powerful new enemy.</string>
+
+    <string name="moviecomment3">This is the best marvel movie so far and i love it!</string>
+
+</resources>
